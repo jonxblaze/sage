@@ -2,6 +2,8 @@
 
 @section('content')
   @include('partials.page-header')
+  
+  @include('partials.test-tailwind')
 
   @if (! have_posts())
     <x-alert type="warning">
